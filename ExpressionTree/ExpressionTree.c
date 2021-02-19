@@ -28,7 +28,7 @@ BTreeNode * MakeExpTree(char exp[]){
 			SetData(pnode, exp[i]);
 		}
 		
-		StackPush(&stack, pnode);
+		StackPush(&stack, pnode->data);
 	}
 	
 	return StackPop(&stack);
