@@ -3,7 +3,7 @@
 #include<string.h>
 #include<ctype.h>
 #include "./ExpressionTree.h"
-#include "./Stack/Stack.h"// 하위 폴더의 경로에 있는 파일을 어떻게 가져오느냐(2021.2.6)
+#include "../Stack/Stack.h"// 하위 폴더의 경로에 있는 파일을 어떻게 가져오느냐(2021.2.6)
 #include "../BinaryTree/BinaryTree.h"
 
 //1 2 + 7 *
