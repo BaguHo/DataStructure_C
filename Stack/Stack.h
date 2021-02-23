@@ -24,6 +24,6 @@ Data StackPop(Stack *stack);
 
 Data Peek(Stack *stack);
 
-Bool IsEmpty(Stack *stack);
+Bool IsStackEmpty(Stack *stack);
 
 #endif
