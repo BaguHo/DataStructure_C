@@ -6,7 +6,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-// input: 1 2 + 7 *
+// input: 1 2 + 7 *`
 //수식트리 구성 => 후위표기법으로 된 수식을 트리에 저장
 BTreeNode *MakeExpTree(char exp[]) {
   Stack stack;
