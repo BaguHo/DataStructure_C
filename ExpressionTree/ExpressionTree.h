@@ -3,9 +3,9 @@
 
 #include "../BinaryTree/BinaryTree.h"
 
-BTreeNode *MakeExpTree(char exp[]); //수식 트리 구성
-int EvaluateExpTree(BTreeNode * bt); // 수식 트리 계산
+BTreeNode *MakeExpTree(char exp[]);  //수식 트리 구성
+Data EvaluateExpTree(BTreeNode *bt); // 수식 트리 계산
 
-void ShowPostfixTypeExp(BTreeNode * bt);
+void ShowPostfixTypeExp(BTreeNode *bt);
 
 #endif
