@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include "ExpressionTree.h"
+#include "expression_tree.h"
 
 int main(){
     char exp[] = "12+7*";

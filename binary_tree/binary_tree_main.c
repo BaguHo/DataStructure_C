@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include "BinaryTree.h"
+#include "binary_tree.h"
 
 int main(){
     BTreeNode * nd = MakeBTree();

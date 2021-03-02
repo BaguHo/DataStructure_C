@@ -1,6 +1,6 @@
-#include "./ExpressionTree.h"
-#include "../BinaryTree/BinaryTree.h"
-#include "../Stack/Stack.h" // 하위 폴더의 경로에 있는 파일을 어떻게 가져오느냐(2021.2.6)
+#include "./expression_tree.h"
+#include "../binary_tree/binary_tree.h"
+#include "../stack/stack.h" // 하위 폴더의 경로에 있는 파일을 어떻게 가져오느냐(2021.2.6)
 #include <ctype.h>
 #include <stdio.h>
 #include <stdlib.h>

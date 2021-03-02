@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include "Stack.h"
+#include "stack.h"
 
 void StackInit(Stack * stack){
 	stack->top = NULL;
