@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-#include "simple_heap.h"
+#include "./simple_heap.h"
 
 HeapData PeekData(Heap * ph){
     if(ph->numOfData == 0){
@@ -24,6 +24,7 @@ int HeapIsEmpty(Heap * ph){
 void HeapInsert(Heap * ph, HeapData data){
     ph->heapArr[ph->numOfData].data = data;
     ph->heapArr[ph->numOfData].pr = data;
+    return;
 }
 
 HeapData HeapDelete(Heap * ph){

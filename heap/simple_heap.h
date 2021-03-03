@@ -28,4 +28,6 @@ int HeapIsEmpty(Heap * ph);
 void HeapInsert(Heap * ph, HeapData data);
 HeapData HeapDelete(Heap * ph);
 
+HeapData PeekData(Heap * ph);
+
 #endif
